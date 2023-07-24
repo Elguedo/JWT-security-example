@@ -10,7 +10,7 @@ public class UserDao {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
     @Column
     private String username;
     @Column
